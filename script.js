@@ -12,7 +12,7 @@ function fizzbuzz (n) {
     console.log(myArray);
 }
 
-function isBizzOrBuzz(n) {
+function isFizzOrBuzz(n) {
     if(n % 3 === 0 && n % 5 === 0) {
         return 'fizzbuzz';
     } else if(n % 3 === 0) {
