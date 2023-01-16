@@ -7,12 +7,8 @@
 function fizzbuzz (n) {
     let myArray = [];
     for (let i = 0; i < n + 1; i++) {
-
-
-
       myArray.push(isBizzOrBuzz(i));
     }
-
     console.log(myArray);
 }
 
@@ -27,13 +23,6 @@ function isBizzOrBuzz(n) {
         return n;
     }
 }
-
-
-// Step 1: loop through n numbers.
-// Step 2: doing step one, but in an array instead.
-// Step 3: we check if a int is divisible by 3 (and print the output)
-// Step 4: check if it is both, just one, just the other, or neither. Return the keyword's, or just the number. BAM!
-
 
 fizzbuzz(15);
 fizzbuzz(50);
