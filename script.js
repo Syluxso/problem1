@@ -7,7 +7,7 @@
 function fizzbuzz (n) {
     let myArray = [];
     for (let i = 0; i < n + 1; i++) {
-      myArray.push(isBizzOrBuzz(i));
+      myArray.push(isFizzOrBuzz(i));
     }
     console.log(myArray);
 }
